@@ -17,9 +17,9 @@ Goal: Find the optimal sequence of moves (pairings and directions) that minimize
 
 ## File Structure
 src/
-Main.java         # entry point
-AstarSearch.java  # A* algorithm implementation
-State.java        # models the problem state
+- Main.java         # entry point
+- AstarSearch.java  # A* algorithm implementation
+- State.java        # models the problem state
 
 ## How to Build & Run
 
@@ -30,14 +30,13 @@ javac src/*.java
 java -cp src Main
 
 ## Sample Input
-Enter the number of people: 5
-Enter the total time (in minutes): 30
-Enter the time required for each person to cross the river:
-1 3 6 8 12
+- Enter the number of people: 5
+- Enter the total time (in minutes): 30
+- Enter the time required for each person to cross the river: 1 3 6 8 12
 
 ## Sample Output
-The family crosses in optimal total time = 30 minutes
-For 6 persons with times [1, 3, 6, 8, 12, 15], total = 40 minutes.
+- The family crosses in optimal total time = 30 minutes
+- For 6 persons with times [1, 3, 6, 8, 12, 15], total = 40 minutes.
 
 ## What I Learned
 - Implementing A* search with admissible heuristics
